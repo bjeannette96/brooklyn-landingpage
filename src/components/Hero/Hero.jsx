@@ -4,6 +4,7 @@ import Button from "../Button/Button";
 ("../Button/Button");
 import Card from "../Card/Card";
 ("../Card/Card");
+import Text from "../Text/Text";
 
 export default function Hero() {
   const cardData = [
@@ -11,18 +12,20 @@ export default function Hero() {
     { title: "250+", description: "Projects Completed" },
     { title: "58", description: "Happy Client" },
   ];
+
+   
   return (
     <div className="hero-section">
       <div className="hero-container">
         <div className="hero-content">
           <div className="hero-text">
-            <h1>Hello, I’m Brooklyn Gilbert</h1>
-            <p>
-              I'm a Freelance UI/UX Designer and Developer based in London,
-              England. I strives to build immersive and beautiful web
-              applications through carefully crafted code and user-centric
-              design.
-            </p>
+            <Text
+                title="Hello, I’m Brooklyn Gilbert"
+                className="hero-style">
+                  <p>I'm a Freelance UI/UX Designer and Developer based in London, England. 
+                    I strives to build immersive and beautiful web applications through 
+                    carefully crafted code and user-centric design.</p>
+                  </Text>           
             <Button />
             <div className="cards-container">
               {cardData.map((card, index) => (

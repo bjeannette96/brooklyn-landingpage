@@ -1,22 +1,25 @@
 .hero-section {
   padding: 0 18.75rem;
-  min-height: calc(100vh - 90px);
-  min-height: calc(100dvh - 90px);
+  height: 1696px;
   background: radial-gradient(
-      ellipse 2088px 980px at 120% -10%,
-      #d9bddd 0%,
+      ellipse 1900px 1500px at 130% -16%,
+      #eeb7f3 0%,
       transparent 70%
     ),
     radial-gradient(
-      ellipse 3000px 1200px at 120% 90%,
-      #c4f5e9 0%,
+      ellipse 2500px 1800px at 140% 60%,
+      #b3e9db 0%,
       transparent 55%
+    ),
+    radial-gradient(
+      ellipse 600px 600px at 12% 118%,
+      #d3931b 0%,
+      transparent 80%
     );
   background-color: #fff;
 }
 
 .hero-container {
-  min-height: calc(100vh - 90px);
   min-height: calc(100dvh - 90px);
   display: flex;
   align-items: center;
@@ -28,31 +31,6 @@
   align-items: flex-end;
   width: 100%;
   gap: 2rem;
-}
-
-.hero-text {
-  max-width: 648px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.hero-text h1 {
-  color: #132238;
-  font-size: 70px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  margin: 0;
-  line-height: 1.2;
-}
-
-.hero-text p {
-  font-size: 17.8px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-  color: #666;
-  margin: 0;
 }
 
 .hero-image {
