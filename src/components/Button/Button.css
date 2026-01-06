@@ -8,13 +8,20 @@
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  width: 126px;
+  width: 128px;
+  white-space: nowrap;
 }
 
-.btn:hover {
+.btn:hover {  
   background-color: #8c2de0;
 }
 
 .btn:active {
   transform: scale(0.98);
+}
+
+.button-icon {
+  width: 20px;             /* Ajustez la taille de votre icône download */
+  height: auto;
+  display: block;          /* Évite les décalages de ligne */
 }

@@ -1,13 +1,73 @@
 .about-section {
   background-color: #F0F1F3;
-  height: 500px; 
+  height: auto;
+  overflow: visible;
+}
+
+.about-section .presentation-bubble{
+  display: flex;
+  position: absolute;
+  gap: 136px;
+  padding: 112px;
+  z-index: 10;
+  margin-top: -32%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  width: 1320px;
+  height: 728px;
+}
+
+.about-section .download-button:hover {  
+  background-color: #ece0f7;
+}
+
+.about-section .download-button{
+  background-color: #ffffff;
+  color: #8c2de0;
+  border: 2px solid #8c2de0;
+  width: fit-content;
+
+}
+
+.about-section .presentation-bubble h1{
+  font-size: 34px;
+}
+
+.about-section .about-buttons{
+  display: flex;
+  gap: 16px; 
+  align-items: center;
+  margin-top: 32px;
 }
 
 .about-container{
-    padding: 0 18.75rem;
+  display: flex;
+  padding: 18.75rem;
+  gap: 120px;
 }
 
-.about-content {
-  width: 800px; 
-  }
+.bubbles-bloc{
+  display: flex;
+  gap: 24px;
+}
 
+.bubbles1-2{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.bubbles3-4{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.about-style {
+  margin-top: 170px;
+}
