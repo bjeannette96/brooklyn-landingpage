@@ -1,0 +1,15 @@
+.blog-section{
+    background-color: #F0F1F3;
+    min-height: 30%;
+    padding: 0;
+}
+
+.blog-container{
+
+    padding: 0 18.75rem;
+}
+
+.blog-content{
+    padding: 6.5rem 0;
+}
+

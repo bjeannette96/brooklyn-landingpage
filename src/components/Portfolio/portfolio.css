@@ -1,0 +1,114 @@
+
+/* portfolio.css */
+.portfolio-section{
+    min-height:100vh;
+    background-color: white;
+}
+
+.portfolio-container{
+
+    padding: 0 18.75rem;
+}
+
+.portfolio-content{
+    padding: 6.5rem 0;
+}
+
+.portfolio-style{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;    
+}
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.case-study-button{
+    background-color: #ffffff;
+    color: #8c2de0;
+    border: 1px solid #8c2de0;
+}
+
+.case-study-button:hover{
+    background-color: #ece0f7;
+}
+
+.projects-grid .bubble{
+    padding: 0;
+    height: auto;
+    width: auto;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.projects-grid .bubble-style {
+    padding: 24px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-grid .bubble-style .text-body {
+    display: contents;
+    flex-direction: column;
+    order: 1;
+}
+
+.projects-grid .bubble-style h1 {
+    order: 2;
+    margin: 0 0 16px 0;
+    font-size: 18px;
+}
+
+.projects-grid .bubble-style .text-body p:not(.category-tag) {
+    order: 3;
+    margin: 0 0 20px 0;
+}
+
+.projects-grid .bubble-style .category-tag {
+    order: 1;
+    color: #c9c9c9;
+    font-size: 12px;
+    margin:0 0 8px 0;
+    padding: 0;
+}
+
+.projects-grid .case-study-button{
+    order: 4;
+    font-weight: 600;
+}
+
+.projects-grid img {
+    width: 100%;        
+    height: 100%;       
+    object-fit: cover;  
+    display: block;
+}
+
+.portfolio-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.125rem;
+}
+
+.work-together{
+    background-color: #132238;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.work-together-button{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin: 2rem auto;     
+}
+
+

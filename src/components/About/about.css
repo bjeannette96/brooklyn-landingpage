@@ -1,3 +1,5 @@
+
+/* about.css */
 .about-section {
   background-color: #F0F1F3;
   height: auto;
@@ -27,9 +29,9 @@
 .about-section .download-button{
   background-color: #ffffff;
   color: #8c2de0;
-  border: 2px solid #8c2de0;
-  width: fit-content;
-
+  outline: 2px solid #8c2de0;
+  outline-offset: -2px;
+  flex-direction: row-reverse;
 }
 
 .about-section .presentation-bubble h1{
@@ -45,7 +47,7 @@
 
 .about-container{
   display: flex;
-  padding: 18.75rem;
+  padding: 15.5rem 18.75rem 8.75rem 18.75rem;
   gap: 120px;
 }
 
@@ -71,3 +73,5 @@
 .about-style {
   margin-top: 170px;
 }
+
+
