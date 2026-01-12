@@ -1,15 +1,181 @@
-.blog-section{
+
+/* Blog.css */
+.blog-section {
     background-color: #F0F1F3;
     min-height: 30%;
     padding: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.blog-container{
-
+.blog-container {
     padding: 0 18.75rem;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
-.blog-content{
-    padding: 6.5rem 0;
+.blog-content {
+    padding: 6.5rem 0 0 0;
+    width: 100%;
 }
+
+/* Styles pour le carousel Swiper */
+.blog-carousel {
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Container du Swiper */
+.blog-carousel .swiper {
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+}
+
+/* Wrapper du Swiper */
+.blog-carousel .swiper-wrapper {
+    display: flex;
+    align-items: stretch;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* Slides individuels */
+.blog-carousel .swiper-slide {
+    height: auto;
+    display: flex;
+    align-items: stretch;
+    box-sizing: border-box;
+}
+
+/* styles bubble pour le carousel ********************************************* */
+.blog-carousel .swiper-slide .bubble {
+    width: 100% !important;
+    height: 100% !important; 
+    padding: 0 !important;   
+    display: flex;
+    flex-direction: column; 
+    box-sizing: border-box;
+    min-height: 350px;
+    overflow: hidden;
+    border-radius: 12px;
+    will-change: transform;
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+                box-shadow 0.3s ease;
+}
+
+.blog-carousel .swiper-slide .bubble .icon-container {
+    width: 100%;
+    margin-bottom: 0;
+    padding:0;
+}
+
+.blog-carousel .swiper-slide .bubble .icon-container img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+    display:block;
+}
+
+/* Style pour le contenu blog (texte) */
+.blog-carousel .swiper-slide .bubble p {
+    font-size: 17.5px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #000000;
+    padding: 0 40px 0 24px;
+}
+
+.blog-carousel .swiper-slide .bubble .blog-date {
+    color: #b4aaaa;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.blog-carousel .swiper-slide .bubble p:last-child {
+    margin-bottom: 0;
+}
+
+/* Style pour la pagination */
+.blog-carousel .swiper-pagination {
+    bottom: 0 !important;
+    position: relative !important;
+    margin-top: 2rem;
+}
+
+.blog-carousel .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background-color: #ccc;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.blog-carousel .swiper-pagination-bullet-active {
+    background-color: #333;
+    width: 30px;
+    border-radius: 6px;
+}
+
+/* Hover effect */
+.blog-carousel .swiper-slide .bubble:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 1400px) {
+    .blog-container {
+        padding: 0 10rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .blog-container {
+        padding: 0 5rem;
+    }
+    
+    .blog-carousel .swiper-slide .bubble {
+        min-height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-container {
+        padding: 0 2rem;
+    }
+    
+    .blog-content {
+        padding: 4rem 0;
+    }
+    
+    .blog-carousel {
+        margin-top: 2rem;
+    }
+    
+    .blog-carousel .swiper-slide .bubble {
+        min-height: 380px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-container {
+        padding: 0 1rem;
+    }
+    
+    .blog-content {
+        padding: 3rem 0;
+    }
+    
+    .blog-carousel .swiper-slide .bubble {
+        min-height: 400px;
+    }
+}
+
+
 

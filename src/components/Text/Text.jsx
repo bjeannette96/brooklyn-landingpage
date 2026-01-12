@@ -10,3 +10,5 @@ export default function Text({ title, children, className = "" }) {
     </div>
   );
 }
+
+
