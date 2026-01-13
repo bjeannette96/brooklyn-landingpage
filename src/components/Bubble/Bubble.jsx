@@ -1,3 +1,5 @@
+
+// Bubble.jsx
 import "./bubble.css"
 import Text from "../Text/Text";
 

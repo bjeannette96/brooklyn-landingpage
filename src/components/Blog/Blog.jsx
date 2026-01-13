@@ -30,7 +30,7 @@ export default function Blog() {
                             modules={[Pagination]}
                             spaceBetween={24}
                             slidesPerView={4}
-                            slidesOffsetBefore={5}     
+                            slidesOffsetBefore={1}     
                             slidesOffsetAfter={26}
                             pagination={{ clickable: true }}
                             breakpoints={{

@@ -1,0 +1,84 @@
+
+
+/* process.css */
+.process-section {
+  background-color: #F0F1F3;
+  padding: 8.75rem 0;
+}
+
+.process-container {
+  display: flex;
+  padding: 0 18.75rem;
+  gap: 120px;
+  align-items: flex-start;
+}
+
+.process-style{
+  margin-top: 170px;}
+
+.process-text {
+  flex-shrink: 0;
+  max-width: 500px;
+}
+
+.bubbles-bloc {
+  display: flex;
+  gap: 24px;
+  flex: 1;
+}
+
+.bubbles1-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.bubbles3-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+/* Responsive */
+@media (max-width: 1400px) {
+  .process-container {
+    padding: 0 10rem;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .process-container {
+    padding: 0 5rem;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .process-text {
+    max-width: 100%;
+  }
+  
+  .bubbles-bloc {
+    flex-direction: column;
+  }
+  
+  .bubbles1-2,
+  .bubbles3-4 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .process-section {
+    padding: 4rem 0;
+  }
+  
+  .process-container {
+    padding: 0 2rem;
+  }
+}
+
+
+

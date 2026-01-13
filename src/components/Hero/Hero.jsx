@@ -1,3 +1,5 @@
+
+// Hero.jsx
 import "./hero.css";
 import heroPhoto from "../../assets/heroPhoto.png";
 import Button from "../Button/Button";
@@ -23,7 +25,7 @@ export default function Hero() {
                 title="Hello, I’m Brooklyn Gilbert"
                 className="hero-style">
                   <p>I'm a Freelance UI/UX Designer and Developer based in London, England. 
-                    I strives to build immersive and beautiful web applications through 
+                    I strive to build immersive and beautiful web applications through 
                     carefully crafted code and user-centric design.</p>
                   </Text>           
             <Button />

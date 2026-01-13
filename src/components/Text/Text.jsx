@@ -1,3 +1,5 @@
+
+// Text.jsx
 import "./text.css";
 
 export default function Text({ title, children, className = "" }) {

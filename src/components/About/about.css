@@ -4,6 +4,7 @@
   background-color: #F0F1F3;
   height: auto;
   overflow: visible;
+  padding-bottom: 8rem;
 }
 
 .about-section .presentation-bubble{
@@ -36,6 +37,7 @@
 
 .about-section .presentation-bubble h1{
   font-size: 34px;
+  padding-top: 55px;
 }
 
 .about-section .about-buttons{
@@ -70,8 +72,34 @@
   margin-top: 24px;
 }
 
-.about-style {
-  margin-top: 170px;
+/* Responsive */
+@media (max-width: 1400px) {
+  .about-section .presentation-bubble {
+    width: 90%;
+    padding: 80px;
+    gap: 80px;
+  }
 }
 
+@media (max-width: 1024px) {
+  .about-section .presentation-bubble {
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+    padding: 60px;
+    margin-top: -25%;
+  }
+}
 
+@media (max-width: 768px) {
+  .about-section .presentation-bubble {
+    width: 90%;
+    padding: 40px;
+    gap: 40px;
+  }
+  
+  .about-section .about-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
