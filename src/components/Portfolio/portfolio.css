@@ -15,9 +15,30 @@
 }
 
 .portfolio-style{
-    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 850px;
     margin: 0 auto;
-    text-align: center;    
+}
+
+.portfolio-style h1 {
+  font-size: 46px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  color: #132238;
+}
+
+.portfolio-style p{
+  font-size: 19px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #87909D;
+  margin-top: 12px 0;
+  max-width: 570px;
 }
 
 .projects-grid{
@@ -41,7 +62,15 @@
     padding: 0;
     height: auto;
     width: auto;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    border: 1px solid #f3f2f2;
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+                box-shadow 0.3s ease;
+}
+
+/* *********************************************************************************** */
+.projects-grid .bubble:hover{
+    transform: scale(1.02);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
 .projects-grid .bubble-style {
@@ -110,5 +139,6 @@
     gap: 12px;
     margin: 2rem auto;     
 }
+
 
 

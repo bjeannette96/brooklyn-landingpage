@@ -1,0 +1,183 @@
+
+/* Contact.css */
+.contact-section {
+    background-color: #FFFFFF;
+    min-height: 2046px;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-container {
+    padding: 0 18.75rem;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-content {
+    padding: 6.5rem 0 0 0;
+    width: 100%;
+}
+
+.testimonial-section{
+    margin-top: 60px;
+    padding-bottom: 6.5rem;
+}
+
+.contact-style{
+    max-width: 580px;
+    margin: 0 auto;
+    text-align: center;  
+    color: #132238;
+}
+
+.contact-style p{
+  margin: 0 auto;
+  text-align: center;
+  color: #7f8286;
+  font-size: 19px;
+}
+
+.contact-style h1 {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  color: #132238;
+}
+
+/* Styles pour le carousel Swiper */
+.contact-carousel {
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+.contact-carousel .swiper {
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+}
+
+.contact-carousel .swiper-wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+/* Slides individuels */
+.contact-carousel .swiper-slide {
+    height: auto;
+    display: flex;
+    align-items: stretch;
+    box-sizing: border-box;
+}
+
+.testimonial-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.testimonial-text{
+    font-size: 19px;
+    line-height: 1.8;
+    color: #132238;
+    margin: 0 auto 2rem auto;
+    max-width: 850px;
+}
+
+.client-name{
+    font-size: 18px;
+    font-weight: 600;
+    color: #132238;
+    margin: 1.5rem 0 0.5rem 0;
+}
+.client-position{
+    font-size: 16px;
+    color: #7f8286;
+    margin: 0;
+}
+
+.content-carousel .swiper-pagination{
+    bottom: 0 !important;
+    position: relative !important;
+    margin-top: 2rem;
+}
+
+.content-carousel .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    opacity: 1;
+    transition: all 0.3s ease;
+    margin: 0 6px;
+}
+
+.contact-carousel .swiper-pagination-bullet-active {
+    background-color: #333;
+    width: 30px;
+    border-radius: 6px;
+}
+
+
+/* Responsive */
+@media (max-width: 1400px) {
+    .contact-container {
+        padding: 0 10rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact-container {
+        padding: 0 5rem;
+    }
+    
+    .testimonial-text {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 0 2rem;
+    }
+    
+    .contact-content {
+        padding: 4rem 0 0 0;
+    }
+    
+    .testimonial-section {
+        padding-bottom: 4rem;
+    }
+    
+    .contact-style h1 {
+        font-size: 36px;
+    }
+    
+    .contact-style p {
+        font-size: 16px;
+    }
+    
+    .testimonial-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-container {
+        padding: 0 1rem;
+    }
+    
+    .contact-content {
+        padding: 3rem 0 0 0;
+    }
+    
+    .contact-style h1 {
+        font-size: 28px;
+    }
+}
+
+
+

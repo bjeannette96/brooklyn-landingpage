@@ -1,7 +1,7 @@
 
 /* Blog.css */
 .blog-section {
-    background-color: #F0F1F3;
+    background-color: #FFFFFF;
     min-height: 30%;
     padding: 0;
     width: 100%;
@@ -19,6 +19,29 @@
     width: 100%;
 }
 
+
+.blog-style{
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;  
+    color: #132238;
+}
+
+.blog-style p{
+  margin: 0 auto;
+  text-align: center;
+  color: #7f8286;
+  font-size: 18px;
+}
+
+.blog-style h1 {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  color: #132238;
+}
+
 /* Styles pour le carousel Swiper */
 .blog-carousel {
     margin-top: 3rem;
@@ -27,14 +50,12 @@
     max-width: 100%;
 }
 
-/* Container du Swiper */
 .blog-carousel .swiper {
     width: 100%;
     height: auto;
     padding-bottom: 3rem;
 }
 
-/* Wrapper du Swiper */
 .blog-carousel .swiper-wrapper {
     display: flex;
     align-items: stretch;
@@ -62,6 +83,7 @@
     min-height: 350px;
     overflow: hidden;
     border-radius: 12px;
+    border: 1px solid #f3f2f2;
     will-change: transform;
     transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
                 box-shadow 0.3s ease;
