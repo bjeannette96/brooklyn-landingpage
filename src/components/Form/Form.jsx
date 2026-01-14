@@ -1,6 +1,3 @@
-
-//Form.jsx
-
 import "./form.css";
 import Bubble from "../Bubble/Bubble";
 import Button from "../Button/Button";
@@ -11,7 +8,6 @@ export default function Form() {
     return(
         <div className="form-section">
             <Bubble className="form-bubble"> 
-                {/* COLONNE GAUCHE */}
                 <div className="contact-info-side">
                     <h2>Let’s discuss your Project</h2>
                     <p className="contact-subtitle">There are many variations of passages of Lorem Ipsu available, but the majority have suffered alte.</p>
@@ -41,15 +37,13 @@ export default function Form() {
                     </div>
 
                     <div className="social-pills">
-                        <a href="#" className="active"><FaFacebookF /></a>
+                        <a href="#"><FaFacebookF /></a>
                         <a href="#"><FaDribbble /></a>
                         <a href="#"><FaBehance /></a>
                         <a href="#"><FaInstagram /></a>
                         <a href="#"><FaLinkedinIn /></a>
                     </div>
                 </div>
-
-                {/* COLONNE DROITE */}
                 <div className="form-side">
                     <p className="form-intro">There are many variations of passages of Lorem Ipsu available, but the majority have suffered alte.</p>
                     <form className="project-form">
@@ -70,7 +64,7 @@ export default function Form() {
                             <textarea placeholder="Message*"></textarea>
                         </div>
                         <Button className="submit-button">
-                            Submit <IoSend style={{marginLeft: '8px'}} />
+                            Submit <IoSend />
                         </Button>
                     </form>
                 </div>
@@ -78,3 +72,6 @@ export default function Form() {
         </div>
     );
 }
+
+
+

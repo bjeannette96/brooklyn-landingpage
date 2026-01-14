@@ -1,46 +1,39 @@
 
-
 /* Form.css */
 .form-section {
   background-color: transparent;
-  position: relative;
-  z-index: 30;
+  position: absolute;
+  z-index: 100;
   width: 100%;
   display: flex;
   justify-content: center;
-  /* On remonte la section sur la précédente */
-  margin-top: -250px; 
+  margin-top: -640px; 
+  margin-bottom: -150px;
   padding: 0 18.75rem;
 }
 
-.form-bubble {
+.form-bubble, 
+.form-bubble .bubble-content {
   display: flex !important;
-  flex-direction: row !important; /* Force l'alignement horizontal */
-  align-items: flex-start !important;
+  flex-direction: row !important;
   justify-content: space-between !important;
-  background: #fff !important;
-  width: 100% !important;
-  max-width: 1200px !important;
-  height: auto !important;
-  min-height: 650px !important;
-  padding: 80px !important;
-  gap: 60px !important;
-  border-radius: 30px !important;
-  box-sizing: border-box !important;
+  align-items: flex-start !important;
 }
 
-.presentation-bubble > div {
-  display: block !important;
+.form-bubble {
+  max-width: 1200px;
+  padding: 70px !important; 
+  border-radius: 30px !important;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.1);
 }
 
 /* --- GAUCHE --- */
 .contact-info-side {
-  flex: 0 0 40% !important;
-  text-align: left;
+  flex: 0 0 42%;
 }
 
 .contact-info-side h2 {
-  font-size: 45px;
+  font-size: 35px;
   color: #132238;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -59,20 +52,32 @@
   background: #fff;
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.04);
   width: fit-content;
   min-width: 280px;
+  transition: all 0.3s ease;
+}
+
+.detail-card:hover .detail-icon {
+  background: #a53dff;
+  color: #fff;
+}
+
+.detail-card:hover{  
+  transform: scale(1.02);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
 }
 
 .detail-icon {
   width: 50px;
   height: 50px;
-  background: #a53dff;
-  color: white;
+  background: #EDD8FF;
+  color: #a53dff;
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 20px;
+  transition: all 0.3s ease;
 }
 
 .detail-text span {
@@ -88,7 +93,7 @@
 
 .social-pills {
   display: flex;
-  gap: 15px;
+  gap: 35px;
   margin-top: 50px;
 }
 
@@ -98,17 +103,13 @@
   transition: 0.3s;
 }
 
-.social-pills a.active {
-  background: #a53dff;
-  color: white;
-  padding: 10px;
-  border-radius: 8px;
-}
+
+
 
 /* --- DROITE --- */
 .form-side {
-    flex: 0 0 50% !important;
-    text-align: left;
+  flex: 0 0 50%;
+  margin-top: 40px;
 }
 
 .form-intro {
@@ -119,30 +120,31 @@
 .project-form {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
 }
 
 .project-form input, 
 .project-form textarea {
+    background: transparent;
   width: 100%;
   border: none;
   border-bottom: 1px solid #e0e0e0;
   padding: 15px 0;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
   transition: 0.3s;
+  margin-bottom: 5px;
 }
 
 .project-form input:focus, 
 .project-form textarea:focus {
   border-bottom-color: #a53dff;
+  color:#a53dff;
 }
 
 .form-row {
-  display: flex !important;
-  flex-direction: row !important;
-  width: 100% !important;
-  gap: 30px !important;
+  display: flex;
+  gap: 30px;
 }
 
 .form-row input {
@@ -155,17 +157,3 @@
   padding: 15px 35px !important;
 }
 
-.project-form input, 
-.project-form textarea {
-  background: transparent !important; /* Enlève le fond noir */
-  border: none !important;
-  border-bottom: 1px solid #ddd !important; /* Ligne de séparation */
-  padding: 15px 0 !important;
-  color: #132238 !important;
-  width: 100% !important;
-  outline: none !important;
-}
-
-.project-form input:focus {
-  border-bottom-color: #a53dff !important; /* Devient violet au clic */
-}

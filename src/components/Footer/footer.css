@@ -17,7 +17,8 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 0.3rem;
-  padding: 15rem 18.75rem 6rem 18.75rem;
+  padding: 12rem 22rem 4rem 22rem;
+  z-index: 10;
 }
 
 .portfolio-logo {
@@ -66,3 +67,5 @@ body {
   align-items: center;
   padding: 0.25rem;
 }
+
+

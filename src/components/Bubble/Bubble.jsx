@@ -24,3 +24,5 @@ export default function Bubble({title, children, imgSrc, className=""}) {
     );
 }
 
+
+

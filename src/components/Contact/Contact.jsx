@@ -59,21 +59,21 @@ export default function Contact() {
                             <SwiperSlide>
                                 <div className="testimonial-content">
                                     <p className="testimonial-text">“Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis felis turpis, nec semper odio convallis at. Curabitur imperdiet semper arcu, a finibus arcu suscipit in. Donec quis placerat nibh. Maecenas est purus, eleifend ac cursus sed, tincidunt ut sapien. Morbi ornare elit at libero suscipit porta.”</p>
-                                    <p className="client-name">Esther Howard</p>
+                                    <p className="client-name">Sarah Howard</p>
                                     <p className="client-position">Managing Director, ABC company</p> 
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="testimonial-content">
                                     <p className="testimonial-text">“Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis felis turpis, nec semper odio convallis at. Curabitur imperdiet semper arcu, a finibus arcu suscipit in. Donec quis placerat nibh. Maecenas est purus, eleifend ac cursus sed, tincidunt ut sapien. Morbi ornare elit at libero suscipit porta.”</p>
-                                    <p className="client-name">Esther Howard</p>
+                                    <p className="client-name">Colete Howard</p>
                                     <p className="client-position">Managing Director, ABC company</p> 
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="testimonial-content">
                                     <p className="testimonial-text">“Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis felis turpis, nec semper odio convallis at. Curabitur imperdiet semper arcu, a finibus arcu suscipit in. Donec quis placerat nibh. Maecenas est purus, eleifend ac cursus sed, tincidunt ut sapien. Morbi ornare elit at libero suscipit porta.”</p>
-                                    <p className="client-name">Esther Howard</p>
+                                    <p className="client-name">Falone Howard</p>
                                     <p className="client-position">Managing Director, ABC company</p> 
                                 </div>
                             </SwiperSlide>                            

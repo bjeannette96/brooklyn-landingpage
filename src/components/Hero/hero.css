@@ -3,7 +3,7 @@
 /* hero.css */
 .hero-section {
   padding: 0 18.75rem;
-  height:1550px;
+  min-height:1450px;
   background: radial-gradient(
       ellipse 1900px 1500px at 130% -16%,
       #eeb7f3 0%,
@@ -76,3 +76,6 @@
   gap: 4px;
   margin-top: 48px;
 }
+
+
+

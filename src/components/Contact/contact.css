@@ -2,10 +2,9 @@
 /* Contact.css */
 .contact-section {
     background-color: #FFFFFF;
-    min-height: 2046px;
-    padding: 0;
+    min-height: auto;
+    padding-bottom: 600px;
     width: 100%;
-    box-sizing: border-box;
 }
 
 .contact-container {
@@ -120,64 +119,5 @@
     width: 30px;
     border-radius: 6px;
 }
-
-
-/* Responsive */
-@media (max-width: 1400px) {
-    .contact-container {
-        padding: 0 10rem;
-    }
-}
-
-@media (max-width: 1024px) {
-    .contact-container {
-        padding: 0 5rem;
-    }
-    
-    .testimonial-text {
-        font-size: 17px;
-    }
-}
-
-@media (max-width: 768px) {
-    .contact-container {
-        padding: 0 2rem;
-    }
-    
-    .contact-content {
-        padding: 4rem 0 0 0;
-    }
-    
-    .testimonial-section {
-        padding-bottom: 4rem;
-    }
-    
-    .contact-style h1 {
-        font-size: 36px;
-    }
-    
-    .contact-style p {
-        font-size: 16px;
-    }
-    
-    .testimonial-text {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .contact-container {
-        padding: 0 1rem;
-    }
-    
-    .contact-content {
-        padding: 3rem 0 0 0;
-    }
-    
-    .contact-style h1 {
-        font-size: 28px;
-    }
-}
-
 
 
