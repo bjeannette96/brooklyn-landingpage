@@ -92,18 +92,31 @@
 }
 
 .social-pills {
+  width: fit-content;
+  background: white;
   display: flex;
-  gap: 35px;
-  margin-top: 50px;
+  padding: 20px 20px 20px 0;
+  border-radius: 4px;
+  gap: 20px;
+  align-items: center;
+  min-width: 250px;
 }
 
 .social-pills a {
   color: #a53dff;
-  font-size: 18px;
-  transition: 0.3s;
+  font-size: 24px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
 }
 
-
+.social-pills :hover {
+  background-color: #a53dff;
+  color: #fff;
+}
 
 
 /* --- DROITE --- */
@@ -125,21 +138,36 @@
 
 .project-form input, 
 .project-form textarea {
-    background: transparent;
+  background: transparent;
   width: 100%;
   border: none;
   border-bottom: 1px solid #e0e0e0;
   padding: 15px 0;
   outline: none;
   font-size: 16px;
-  transition: 0.3s;
+  transition: all 0.3s ease;
   margin-bottom: 5px;
+  color: #132238;
+}
+
+.project-form textarea {
+  resize: none;
 }
 
 .project-form input:focus, 
 .project-form textarea:focus {
   border-bottom-color: #a53dff;
-  color:#a53dff;
+}
+
+.project-form input::placeholder,
+.project-form textarea::placeholder {
+  color: #7f8286;
+  transition: all 0.3s ease;
+}
+
+.project-form input:focus::placeholder,
+.project-form textarea:focus::placeholder {
+  color: #a53dff;
 }
 
 .form-row {

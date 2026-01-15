@@ -1,7 +1,7 @@
 
-//Contact.jsx
+//Testimonial.jsx
 
-import "./contact.css";
+import "./testimonial.css";
 import Text from "../Text/Text";
 
 import {Swiper, SwiperSlide} from "swiper/react";
@@ -9,10 +9,16 @@ import "swiper/css";
 import { Pagination} from "swiper/modules";  
 import "swiper/css/pagination";     
 
-import socials from "../../assets/socials.png";
+//import socials from "../../assets/socials.png";
+import google from "../../assets/google.svg";
+import linkedin from "../../assets/linkedin.svg";
+import medium from "../../assets/medium.svg";
+import dribbble from "../../assets/dribbble.svg";
+import spotify from "../../assets/spotify.svg";
+import amazon from "../../assets/amazon.svg";   
 
 
-export default function Contact() {
+export default function Testimonial() {
     return(
         <div className="contact-section">
             <div className="contact-container">
@@ -21,8 +27,14 @@ export default function Contact() {
                         title="Happy Clients" className="contact-style">
                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                     </Text>
-                    <div>
-                        <img src={socials} alt="socials" className="socials-image"/>
+                    <div className="socials-image">
+                        {/* <img src={socials} alt="socials" className="socials-image"/> */}                        
+                        <img src={google} className="Google"  />
+                        <img src={dribbble} className="Dribbble"  />
+                        <img src={linkedin} className="LinkedIn"  />
+                        <img src={amazon} className="Amazon" />
+                        <img src={medium} className="Medium" />
+                        <img src={spotify} className="Spotify" />
                     </div>
                     <div className="testimonial-section">
                         <Text 
@@ -85,6 +97,5 @@ export default function Contact() {
         </div>
     );
 }   
-
 
 

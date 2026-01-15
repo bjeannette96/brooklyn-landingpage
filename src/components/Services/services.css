@@ -29,6 +29,10 @@
   margin-bottom: 0;
 }
 
+.btn{
+    margin-top: 40px;
+}
+
 .services-style p{
   font-size: 19px;
   font-family: "Poppins", sans-serif;
@@ -36,10 +40,6 @@
   line-height: 1.6;
   color: #666;
   margin-bottom: 0;
-}
-
-Button{
-    margin-top: 50px;
 }
 
 .services-bubbles{

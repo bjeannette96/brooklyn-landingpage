@@ -1,5 +1,5 @@
 
-/* Contact.css */
+/* testimonial.css */
 .contact-section {
     background-color: #FFFFFF;
     min-height: auto;
@@ -16,6 +16,30 @@
 .contact-content {
     padding: 6.5rem 0 0 0;
     width: 100%;
+}
+
+.socials-image {
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.socials-image img {
+    width: auto;
+    height: 90px;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.socials-image img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 .testimonial-section{
